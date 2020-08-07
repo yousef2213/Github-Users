@@ -12,10 +12,10 @@ export default function InfoUsers(props) {
                         <div className="row">
                             <div className="col-sm-6 col-md-6 col-lg-6 col-12 info-me px-5 py-3">
                                 <div className="info d-flex">
-                                    <img className="img-user" src={info.avatar_url} alt='yousef ayman' />
+                                    <img className="img-me" src={info.avatar_url} alt='yousef ayman' />
                                     <div>
-                                        <h6>{info.name}</h6>
-                                        <h5 className="text-muted">@{info.login}</h5>
+                                        <h6 className="text-left">{info.name}</h6>
+                                        <span className="text-muted text-left">@{info.login}</span>
                                     </div>
                                 </div>
                                 <div>
